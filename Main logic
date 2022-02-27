@@ -1,7 +1,7 @@
 t =list(range(1,50))
-#b=input("Price of ticket: ")
+b=input("Price of ticket: ")
 for i in t:
-    w = float(10.50)*i
+    w = float(b)*i
     w1 = 40+4*i
     
     if w>w1:
@@ -11,4 +11,3 @@ for i in t:
         
     else:
         continue
-        
