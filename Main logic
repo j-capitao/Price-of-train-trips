@@ -4,7 +4,11 @@ for i in t:
     w = float(10.50)*i
     w1 = 40+4*i
     
-    
-    print("sem pass:", w,"com pass", w1, "nº viagens: ", i)
+    if w>w1:
+        print("sem passe:", w, "€","\n","com passe",w1, "€", "\n", "nº viagens: ", i)
         
-input("press any key")
+        break
+        
+    else:
+        continue
+        
